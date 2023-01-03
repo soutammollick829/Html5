@@ -1,0 +1,60 @@
+label{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: grey;
+}
+th,td{
+    border: 1px solid lightseagreen;
+    padding: 5px 25px;
+}
+nav ul{
+    display: flex;
+    font-size: 20px;
+    color:red;
+    
+}
+nav li{
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    
+    
+    
+
+}
+nav li:hover{
+    color:tomato;
+    background-color: teal;
+   
+}
+h2{
+    color: darkgreen;
+    font-size: 30px;
+    font-family: cursive;
+}
+.label{
+    color: brown;
+    font-weight: bold;
+}
+nav li a{
+    text-decoration: none;
+    color:#fff;
+    background-color: teal;
+}
+nav ul.dropdown{
+ display: none;
+ position: absolute;
+ background-color:lightgreen;
+ padding: 5px;
+
+}
+nav li:hover .dropdown{
+    display: block;
+}
